@@ -1,0 +1,16 @@
+{
+  "name": "babel-errors",
+  "version": "1.0.0",
+  "description": "Reproducible Babel errors.",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel index.js",
+    "babel-node": "babel-node index.js",
+    "test": "npm run babel; npm run babel-node;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:williamboman/babel-errors"
+  },
+  "author": "William Boman <william@redwill.se>"
+}
