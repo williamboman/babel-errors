@@ -1,3 +1,3 @@
 import Base from './Base';
 
-export default Person extends Base {}
+export default class Person extends Base {}
