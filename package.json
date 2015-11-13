@@ -4,8 +4,9 @@
   "description": "Reproducible Babel errors.",
   "main": "index.js",
   "scripts": {
-    "babel": "babel index.js",
-    "test": "npm run babel"
+    "babel": "babel Client.js",
+    "babel-node": "babel-node Client.js",
+    "test": "npm run babel; npm run babel-node;"
   },
   "repository": {
     "type": "git",
